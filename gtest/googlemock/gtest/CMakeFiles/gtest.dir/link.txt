@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/giraldolab/catkin_ws/src/basic_led_strip_ros/build/catkin_tools_prebuild/gtest/googlemock/gtest/src -Wl,-rpath,/home/giraldolab/catkin_ws/src/basic_led_strip_ros/build/catkin_tools_prebuild/gtest/googlemock/gtest/src -lpthread 
